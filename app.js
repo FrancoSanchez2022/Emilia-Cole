@@ -11,4 +11,4 @@ app.get('/contact',(req,res) => res.sendFile(path.join(__dirname, 'views','conta
 app.get('/music',(req,res) => res.sendFile(path.join(__dirname, 'views','music.html')))
 app.get('*',(req,res) => res.sendFile(path.join(__dirname, 'views','404.html')))
 
-app.listen(port,() => console.log(`El servidor fue levantado con exito el dia lunes a las 9  de la mañana en http://localhost:${port}`))
+app.listen(port,() => console.log(`El servidor fue levantado con exito el dia miercoles a las 9  de la mañana en http://localhost:${port}`))
